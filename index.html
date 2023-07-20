@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Import style.css-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="row card">
+        <div class="col s12">
+            <!-- Header -->
+            <div class="row align-center">
+                <!-- Logo de la pagina -->
+                <div class="col s12 m2 l1 center">
+                    <img src="./images/logo.png" alt="Logo de la empresa">
+                </div>
+                <!-- Titulo de la pagina -->
+                <div class="col s12 m10 l11">
+                    <h2>My<span>D</span>ict<span>i</span>ona<span>r</span>y</h2>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Search div -->
+            <div class="container search-div">
+                <h6>Búsqueda:</h6>
+                <div class="row align-center">
+                    <!-- Search input -->
+                    <div class="input-field col m10 s12">
+                        <input placeholder="Escriba la palabra que desea consultar" id="word_input" type="text" required>
+                    </div>
+                    <!-- Search button -->
+                    <div class="button-field col m2 s12">
+                        <a class="waves-effect blue-btn btn" id="submit">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results div -->
+            <div class="container" id="results_div">
+                <!-- <h6>Resultados:</h6> -->
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Import main.js-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
